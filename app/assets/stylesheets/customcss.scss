@@ -1,0 +1,27 @@
+$navbar-default-bg: #312312;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.smalleryet img{
+	max-height: 25%;
+	max-width: 25%;
+}
+
+.mediumyet img{
+	max-height: 75%;
+	max-width: 75%;
+}
+
+.highyet img{
+	max-height: 95%;
+	max-width: 95%;
+}
+
+.img-responsive{
+	width: 100% \9;
+}
+
+.addmargin{
+	margin-top:5%;
+}

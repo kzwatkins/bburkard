@@ -1,0 +1,164 @@
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <div class="container">
+            <div class="carousel-caption">
+
+<p class="smalleryet">
+		<%= image_tag "PULSE_Front.jpg" %>
+</p>
+            <p><a class="btn btn-md btn-primary" href="#details" role="button">Browse Gallery</a></p>
+             </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="container">
+            <div class="carousel-caption">
+					<p class="smalleryet">
+							<%= image_tag "NatGeoJodiCobb.jpg" %>
+					</p>
+				   <p><a class="btn btn-md btn-primary" href="#details" role="button">Browse Gallery</a></p>
+
+            </div>
+          </div>
+        </div>
+        <div class="item">
+            <div class="carousel-caption">
+					<p class="smalleryet">
+							<%= image_tag "TortoiseandTheHarePostCard.jpg" %>
+					</p>
+            <p><a class="btn btn-md btn-primary" href="#details" role="button">Browse Gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row" >
+        <div class="col-lg-4">
+
+
+<p class="img-circle mediumyet" id="details">
+		<%= image_tag "PULSE_Front.jpg" %>
+</p>
+
+          <h2>Professional.</h2>
+			<p>
+				High quality work is the enterprise.
+			</p>
+          <p><a class="btn btn-default" href="#professional" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        
+        
+        <div class="col-lg-4">
+<p class="img-circle mediumyet">
+		<%= image_tag "NatGeoJodiCobb.jpg" %>
+</p>
+         <h2>Captivating.</h2>
+<p>
+	Get drawn into the possible.
+</p>
+          <p><a class="btn btn-default" href="#captivating" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        
+        <div class="col-lg-4">
+<p class="img-circle mediumyet">
+		<%= image_tag "TortoiseandTheHarePostCard.jpg" %>
+</p>
+          <h2>Innovative.</h2>
+<p>
+		Journey into imagination.
+</p>
+          <p><a class="btn btn-default" href="#innovative" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="professional">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Professional. <span class="text-muted">High quality work is the enterprise.</span></h2>
+          <p class="lead">
+          		My expertise allows for efficiency without compromising quality.
+          </p>
+        </div>
+        <div class="col-md-5">
+        <p class="featurette-image img-responsive center-block">
+          		<p class="img-circle highyet">
+						<%= image_tag "PULSE_FullCoverWeb.jpg" %>
+				</p>
+			</p>
+        </div>
+      </div>
+     <p class="pull-right">  <%= link_to "Back to Top", root_path %>   </p>
+
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="captivating">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Captivating. <span class="text-muted">Get drawn into the possible.</span></h2>
+          <p class="lead">Get lost in the riveting scenes and imagery.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+         <p class="featurette-image img-responsive center-block">
+          		<p class="img-circle highyet">
+						<%= image_tag "NatGeoJodiCobb2.jpg" %>
+				</p>
+			</p>
+        </div>
+      </div>
+   <p class="pull-right">  <%= link_to "Back to Top", root_path %>   </p>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="innovative">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Innovative. <span class="text-muted">Journey into imagination.</span></h2>
+          <p class="lead">
+          	Creativity without bounds.
+          </p>
+         </div>
+        <div class="col-md-5">
+       <p class="featurette-image img-responsive center-block">
+          		<p class="img-circle highyet">
+						<%= image_tag "TortoiseandTheHarePostCard2.jpg" %>
+				</p>
+			</p>
+        </div>
+       </div>
+   <p class="pull-right">  <%= link_to "Back to Top", root_path %>   </p>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+
