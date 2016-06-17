@@ -15,3 +15,4 @@ Rails.application.config.assets.precompile += %w( TortoiseandTheHarePostCard.jpg
 Rails.application.config.assets.precompile += %w( NatGeoJodiCobb2.jpg )
 Rails.application.config.assets.precompile += %w( PULSE-FullCoverWeb.jpg )
 Rails.application.config.assets.precompile += %w( TortoiseandTheHarePostCard2.jpg )
+Rails.application.config.assets.precompile += %w( wprlogo.png )

@@ -9,33 +9,27 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
+		<%= image_tag "PULSE_Front.jpg" %>
           <div class="container">
             <div class="carousel-caption">
 
-<p class="smalleryet">
-		<%= image_tag "PULSE_Front.jpg" %>
-</p>
-            <p><a class="btn btn-md btn-primary" href="#details" role="button">Browse Gallery</a></p>
+            <p><a class="btn btn-md btn-primary" href="#pulse" role="button">Browse Gallery</a></p>
              </div>
           </div>
         </div>
         <div class="item">
+		<%= image_tag "NatGeoJodiCobb.jpg" %>
           <div class="container">
             <div class="carousel-caption">
-					<p class="smalleryet">
-							<%= image_tag "NatGeoJodiCobb.jpg" %>
-					</p>
-				   <p><a class="btn btn-md btn-primary" href="#details" role="button">Browse Gallery</a></p>
+				   <p><a class="btn btn-md btn-primary" href="#cobb" role="button">Browse Gallery</a></p>
 
             </div>
           </div>
         </div>
         <div class="item">
+		<%= image_tag "TortoiseandTheHarePostCard.jpg" %>
             <div class="carousel-caption">
-					<p class="smalleryet">
-							<%= image_tag "TortoiseandTheHarePostCard.jpg" %>
-					</p>
-            <p><a class="btn btn-md btn-primary" href="#details" role="button">Browse Gallery</a></p>
+            <p><a class="btn btn-md btn-primary" href="#tortoise" role="button">Browse Gallery</a></p>
             </div>
           </div>
         </div>
@@ -49,6 +43,9 @@
         <span class="sr-only">Next</span>
       </a>
     </div><!-- /.carousel -->
+<div>
+<p style="margin-top: 20em;">
+</div>
 
 
     <!-- Marketing messaging and featurettes
@@ -62,7 +59,7 @@
         <div class="col-lg-4">
 
 
-<p class="img-circle mediumyet" id="details">
+<p class="img-circle mediumyet" id="pulse">
 		<%= image_tag "PULSE_Front.jpg" %>
 </p>
 
@@ -71,11 +68,12 @@
 				High quality work is the enterprise.
 			</p>
           <p><a class="btn btn-default" href="#professional" role="button">View details &raquo;</a></p>
+     <p class="pull-right">  <%= link_to "Back to Top", root_path %>   </p>
         </div><!-- /.col-lg-4 -->
         
         
         <div class="col-lg-4">
-<p class="img-circle mediumyet">
+<p class="img-circle mediumyet" id="cobb">
 		<%= image_tag "NatGeoJodiCobb.jpg" %>
 </p>
          <h2>Captivating.</h2>
@@ -83,10 +81,11 @@
 	Get drawn into the possible.
 </p>
           <p><a class="btn btn-default" href="#captivating" role="button">View details &raquo;</a></p>
+     <p class="pull-right">  <%= link_to "Back to Top", root_path %>   </p>
         </div><!-- /.col-lg-4 -->
         
         <div class="col-lg-4">
-<p class="img-circle mediumyet">
+<p class="img-circle mediumyet" id="tortoise">
 		<%= image_tag "TortoiseandTheHarePostCard.jpg" %>
 </p>
           <h2>Innovative.</h2>
@@ -94,9 +93,13 @@
 		Journey into imagination.
 </p>
           <p><a class="btn btn-default" href="#innovative" role="button">View details &raquo;</a></p>
+     <p class="pull-right">  <%= link_to "Back to Top", root_path %>   </p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
+<div>
+<p style="margin-top: 20em;">
+</div>
 
       <!-- START THE FEATURETTES -->
 
@@ -136,6 +139,9 @@
         </div>
       </div>
    <p class="pull-right">  <%= link_to "Back to Top", root_path %>   </p>
+<div>
+<p style="margin-top: 5em;">
+</div>
 
       <hr class="featurette-divider">
 
@@ -155,6 +161,9 @@
         </div>
        </div>
    <p class="pull-right">  <%= link_to "Back to Top", root_path %>   </p>
+<div>
+<p style="margin-top: 5em;">
+</div>
 
       <hr class="featurette-divider">
 

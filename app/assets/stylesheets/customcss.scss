@@ -6,6 +6,15 @@ $navbar-default-bg: #312312;
 .smalleryet img{
 	max-height: 25%;
 	max-width: 25%;
+	//height: auto !important;
+	//background-size: 140%;
+	//background-size: cover;
+  	//background-position: center;
+  	//background-repeat: no-repeat;
+	//width:100% !important;
+        //min-width:100%;
+	//height: 500px;
+        //height: auto;
 }
 
 .mediumyet img{
@@ -24,4 +33,9 @@ $navbar-default-bg: #312312;
 
 .addmargin{
 	margin-top:5%;
+}
+
+.pulse-back{
+    // background-image: url('../images/header-shade.jpg');
+    max-width: 100%;
 }
