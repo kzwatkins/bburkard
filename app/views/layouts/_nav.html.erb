@@ -1,7 +1,7 @@
     <div class="navbar-wrapper">
       <div class="container">
 
-        <nav class="navbar navbar-inverse navbar-static-top">
+        <nav class="navbar navbar-inverse navbar-default-top">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -10,7 +10,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-				 <%=link_to "Brian Burkard", root_path, class:"navbar-brand" %>
+
+		 <%=link_to "Brian Burkard", root_path, class:"navbar-brand" %>
             </div>
             
             <div id="navbar" class="navbar-collapse collapse">
@@ -18,6 +19,11 @@
 		<li><%= link_to "Home", root_path %></li>
 		<li><%= link_to "About", about_path %></li>
               </ul>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li><%= link_to "Powered By: Watkins Proactive Research LLC", "http://www.watkinstechpro.com", target: "_blank" %> </li>
+	      </ul>
+
             </div>
           </div>
         </nav>
